@@ -126,11 +126,8 @@ Use Spring to register related module </br>
 2. rpc.properties </br>
 Following configuration means we connect local Zookeeper server, and publish RPC service at port 8000 </br>
 
-    zookeeper　Server (registry center)
-    rpc.registry_address = 127.0.0.1:2181
+<img width="389" alt="Screen Shot 2022-02-28 at 1 53 49 pm" src="https://user-images.githubusercontent.com/56336682/155931510-d6a0b81c-1d40-475a-9a35-ef13dac0d54e.png">
 
-    RPC Client
-    rpc.service_address = 127.0.0.1:8000
 
 4️⃣ **Launch / Publish RPC service** </br>
 Run class RpcBootstrap, it will load the spring configuration file (as above), which publish RPC service, and register the service </br>
@@ -221,8 +218,7 @@ rpcProxy is to obtain RPC proxy interface </br>
 
 2. rpc.properties
 
-    zookeeper server address (ip address + port)
-    rpc.registry_address = 127.0.0.1:2181
+<img width="415" alt="Screen Shot 2022-02-28 at 1 54 07 pm" src="https://user-images.githubusercontent.com/56336682/155931534-7d8c5a8b-6de7-4563-9953-925ff27b03aa.png">
 
 3️⃣ **Call the RPC Service** </br>
 
