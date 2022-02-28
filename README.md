@@ -9,8 +9,7 @@ To use this framework, we need to wire the service registry module and RPC serve
 
 ### 1. Define the RPC interface
 In **rpc-sample-api** module </br>
-
-
+···
 
 package com.osako.rpc.sample.api;
 
@@ -20,7 +19,7 @@ public interface HelloService {
 
 }
 
-
+···
 
 ### 2. Publish the service
 In **rpc-sample-server** module </br>
