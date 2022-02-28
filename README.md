@@ -8,12 +8,12 @@ Sample code to use the framework is in package **rpc-sample_xxx** </br>
 To use this framework, we need to wire the service registry module and RPC server into server package **rpc-sample-server**, and wire the service discovery module and RPC client into client package **rpc-sample-client**, Details follow: </br>
 
 ### 1. Define the RPC interface
-In **rpc-sample-api** module
+In **rpc-sample-api** module </br>
 <img width="452" alt="rpc-github-readme1" src="https://user-images.githubusercontent.com/56336682/155926146-d8224f36-d8a1-49c9-a573-edfd219e7568.png">
 
 ### 2. Publish the service
-In **rpc-sample-server** module
-1️⃣ **Add the dependencies**
+In **rpc-sample-server** module </br>
+1️⃣ **Add the dependencies** </br>
     <dependencies>
         <!--RPC 接口所在模块的依赖-->
         <dependency>
