@@ -7,6 +7,8 @@ Sample code to use the framework is in package **rpc-sample_xxx** </br>
 
 To use this framework, we need to wire the service registry module and RPC server into server package **rpc-sample-server**, and wire the service discovery module and RPC client into client package **rpc-sample-client**, Details follow: </br>
 
+***
+
 ### 1. Define the RPC interface
 In **rpc-sample-api** module </br>
 
@@ -18,7 +20,7 @@ In **rpc-sample-api** module </br>
 
     }
 
-
+***
 
 ### 2. Publish the service
 In **rpc-sample-server** module </br>
@@ -146,6 +148,7 @@ Run class RpcBootstrap, it will load the spring configuration file (as above), w
         }
     }
 
+***
 
 ### 3. Call the RPC Service
 
