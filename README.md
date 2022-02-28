@@ -9,11 +9,20 @@ To use this framework, we need to wire the service registry module and RPC serve
 
 ### 1. Define the RPC interface
 In **rpc-sample-api** module </br>
-<img width="452" alt="rpc-github-readme1" src="https://user-images.githubusercontent.com/56336682/155926146-d8224f36-d8a1-49c9-a573-edfd219e7568.png">
+
+package com.osako.rpc.sample.api;
+
+public interface HelloService {
+
+    String hello(String name);
+
+}
 
 ### 2. Publish the service
 In **rpc-sample-server** module </br>
+
 1️⃣ **Add the dependencies** </br>
+
     <dependencies>
         <!--RPC 接口所在模块的依赖-->
         <dependency>
